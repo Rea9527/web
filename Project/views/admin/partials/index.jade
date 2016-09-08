@@ -1,0 +1,6 @@
+div#index
+	p 所有用户：
+	ul
+		li(ng-repeat='user in users')
+			div {{user.username}}
+			a(ng-click="deleteUser(user)") 删除

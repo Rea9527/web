@@ -1,0 +1,9 @@
+table(border='1')#rank
+	thead
+		tr
+			th 学号
+			th 成绩
+	tbody
+		tr(ng-repeat='homework in homeworks')
+			th {{homework.username}}
+			th {{homework.TAcomment.point}}

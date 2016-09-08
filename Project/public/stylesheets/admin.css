@@ -1,0 +1,129 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-image: url("../images/4962.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family:"Arial","Tahoma","微软雅黑","雅黑";	
+}
+
+#error {
+	width: 200px;
+	height: 40px;
+	color: red;
+}
+
+#index {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	border-radius: 5px;
+}
+
+#index p {
+	text-align: center;
+	color: red;
+}
+
+ul {
+	width: 100%;
+	margin-left: 1%;
+}
+
+ul li {
+	width: 25%;
+	float: left;
+	margin-left: 5%;
+	margin-top: 2%;
+}
+
+input {
+	outline: none;
+	border-radius: 5px;
+	border: 1px solid grey;
+	width: 300px;
+	height: 30px;
+	font-size: 14pt;
+}
+
+header {
+  position: relative;
+  width: 200px;
+  height: 40px;
+  margin-left: 40%;
+  margin-top: 2%;
+}
+
+header div {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+}
+
+header div:nth-child(1) {
+  left: 0px;
+}
+
+header div:nth-child(2) {
+  left: 100px;
+}
+
+header div:nth-child(3) {
+  left: 200px;
+}
+
+header button {
+  background-color: skyblue;
+  width: 100px;
+  height: 40px;
+  border:none;
+  outline: none;
+  /*border-radius: 5px 0 0 5px;*/
+}
+
+header div:nth-child(1) button {
+  border-right: 1px solid grey;
+  border-radius: 5px 0 0 5px;
+}
+
+header div:nth-child(2) button {
+  border-right: 1px solid grey;
+  /*border-radius: 0 5px 5px 0;*/
+}
+
+header div:nth-child(3) button {
+  border-radius: 0 5px 5px 0;
+}
+
+header button:hover {
+  background-color: #318DFD;
+  border:none;
+}
+
+.userJade {
+	margin-left: 30%;
+}
+
+.userJade h1 {
+	margin-left: 23%;
+}
+
+.input {
+	text-align: right;
+	margin-right: 53%;
+}
+
+.Btn {
+	margin-top: 3%;
+	width: 100px;
+	margin-left: 25%;
+	height: 30px;
+	font-size: 16pt;
+	font-weight: bolder;
+}
+
+#error {
+	margin-left: 20%;
+}

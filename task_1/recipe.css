@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("http://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg");
+    background-attachment: fixed;
+    font-family: Georgia, serif-font, serif;
+
+}
+
+a {
+    color: #A4A400;
+}
+
+a:hover {
+    color: blue;
+}
+
+ul {
+    list-style-image: url("http://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif");
+}
+
+
+h1{
+    font-family: verdana;
+    color:  #A4A400;
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2{
+    font-family: verdana;
+    text-decoration: underline;
+    color:  #A4A400;
+}
+
+#header1 {
+    height: 40px;
+    width: 100%;
+    background-color: #F0F0F0;
+
+}
+
+#part1 {
+    float: left;
+    font-size: 110%;
+}
+
+#contain {
+    height: 250px;
+    width: 250px;
+    background-color: #fbffe3;
+    float: right;
+    margin-right: 100px;
+    font-size: 150%;
+}
+
+#line1 {
+    margin-top: 430px;
+}
+
+#part2 {
+    height: 35px;
+    width: 100%;
+    background-color:#F0F0F0;
+}
+
+.p2-c {
+    font-size: 120%;
+}
+
+#line2 {
+    margin-top: 330px;
+}
+
+#part3 {
+    height: 35px;
+    width: 100%;
+    background-color:#F0F0F0;
+}
+
+#line3 {
+    margin-top: 400px;
+}
+
+#part4 {
+    height: 35px;
+    width: 100%;
+    background-color:#F0F0F0;
+}
+
+.p4-c1 {
+    width: 80%;
+    height: 80px;
+    background-color: burlywood;
+    margin-left: 10%;
+}
+
+.p4-c2 {
+    width: 80%;
+    height: 80px;
+    background-color: burlywood;
+    margin-left: 10%;
+}
+
+#line4 {
+    margin-top: 240px;
+}
+
+#part5 {
+    height: 35px;
+    width: 100%;
+    background-color:#F0F0F0;
+}

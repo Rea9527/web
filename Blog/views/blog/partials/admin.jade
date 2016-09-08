@@ -1,0 +1,22 @@
+section
+  h3 {{post.title}}
+  p(ng-show="!post.hide")#textView {{post.text}}
+  p(ng-show="post.hide")#textView.textView 该内容已被管理员隐藏...
+  button(ng-click='hidePost()' ng-show="!post.hide")#hidePostBtn Hide This Post
+  button(ng-click='showPost()' ng-show="post.hide")#hidePostBtn Show This Post
+  p#author Author: {{post.author}}
+h3#totalComments Total Comments:
+div(ng-repeat="comment in post.comments")#commentsContainer
+  strong {{comment.commentUser}}:
+  p(ng-show="!comment.isHide")#comments {{comment.content}}
+  p(ng-show="comment.isHide")#comments.comments 该内容已被管理员隐藏
+  button(ng-show="comment.isMyComment" ng-click="editComment(comment)").edit Edit
+  button(ng-show="comment.isMyComment" ng-click="deleteComment(comment)").delete Delete
+  button(ng-show="!comment.isHide" ng-click="hideComment(comment)").hide Hide
+  button(ng-show="comment.isHide" ng-click="showComment(comment)").hide show
+  hr
+div#commentArea
+  h1 Comment:
+  textarea(ng-model='comments.content', cols='50', rows='6')
+  p
+    button(ng-click='submitComment()') Comment

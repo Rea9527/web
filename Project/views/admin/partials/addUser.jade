@@ -1,0 +1,13 @@
+div.userJade
+	h1 添加用户
+	div#error {{msg}}
+	div#username.input 学号: 
+		input(type="text" name="username" placeholder='学号为8位数字' ng-model='user.username' maxlength='8')
+		div#nameWrong.wrong
+	div#password.input 密码: 
+		input(type="password" name="password" placeholder='密码 6~12位' ng-model='user.password')
+	div#passwordWrong.wrong
+	div#repeatPassword.input 重复密码: 
+		input(type="password" name="repeatPassword" placeholder='再次输入密码' ng-model='user.repeatPassword')
+	div#repeatWrong.wrong
+	button(ng-click='addUser()').Btn 添加

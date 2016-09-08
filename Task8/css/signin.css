@@ -1,0 +1,119 @@
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-image: url('../img/bg3.jpg');
+}
+
+* {
+	-webkit-user-select: none;
+}
+
+#signin {
+	position: relative;
+	width: 500px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 50px;
+}
+
+h1 {
+	position: absolute;
+	font-weight: bolder;
+	color: blue;
+	left: 185px;
+	margin:0;
+	top: 10px;
+	text-shadow: 1.5px 1.5px grey;
+}
+
+form {
+	position: absolute;
+	top: 100px;
+	left: 120px;
+}
+
+.input {
+	position: absolute;
+	width: 500px;
+	height: 30px;
+	font-size: 15pt;
+	font-weight: bolder;
+}
+
+input {
+	outline: none;
+	margin:0;
+}
+
+#alert {
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	top: 55px;
+	text-align: center;
+	color: red;
+	font-size: 13pt;
+}
+
+.wrong {
+	position: absolute;
+	width: 500px;
+	height: 20px;
+	color: red;
+	font-size: 10pt;
+}
+
+#username {
+	left: -20px;
+}
+
+#nameWrong {
+	top: 35px;
+}
+
+#studentId {
+	top: 60px;
+}
+
+#idWrong {
+	top: 95px;
+}
+
+#phone {
+	top: 120px;
+}
+
+#phoneWrong {
+	top: 155px;
+}
+
+#email {
+	top: 180px;
+}
+
+#emailWrong {
+	top: 215px;
+}
+
+.button {
+	margin: 0;
+	font-size: 12pt;
+	font-weight: bolder;
+	width: 70px;
+	height: 30px;
+	background-color: skyblue;
+	border-radius: 10%;
+	top: 260px;
+}
+
+#submit {
+	position: absolute;
+	left: 20px;
+}
+
+#reset {
+	position: absolute;
+	left: 160px;
+}

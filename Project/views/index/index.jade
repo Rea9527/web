@@ -1,0 +1,15 @@
+extends layout
+
+block body
+	div#head
+		p.title My Achievements
+		img(src="../images/user.png")
+		p.username #{user.username}
+	div(ng-view)
+	
+	script(type="text/javascript" src="http://lib.sinaapp.com/js/jquery/1.7.2/jquery.min.js")
+	script(src='javascripts/lib/angular/angular.js')
+	script(src='javascripts/myApp/app.js')
+	script(src='javascripts/myApp/controller.js')
+	script(type="text/javascript" src="/javascripts/validator.js")
+	link(link rel="icon" sizes="196x196" href="/images/favicon.png")

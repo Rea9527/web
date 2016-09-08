@@ -1,0 +1,17 @@
+extends layout
+
+block content
+
+	div#content
+		h1 登录
+		div#error #{error}
+		form(method="post" action="/signin")
+			div#username 用户名: 
+				input(name="username" placeholder="请输入用户名")
+			div#password 密码: 
+				input(type="password" name="password" placeholder="请输入密码")
+			input#signin(type="submit" value="登录" formaction="index")
+			a(href="")#forgetPassword 忘记密码？
+			a(href="/regist")#regist 注册
+	link(rel="stylesheet" type="text/css" href="/stylesheets/signin.css")
+	link(link rel="icon" sizes="196x196" href="/images/favicon.png")

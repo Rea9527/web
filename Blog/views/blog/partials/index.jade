@@ -1,0 +1,10 @@
+p#totalPosts There are {{posts.length}} posts in total:
+div(ng-repeat='post in posts')#post
+  h3 {{post.title}}
+  div(ng-show="!post.hide")#text {{post.text}}
+    a(ng-hide="checkAdmin" href='/readPost/{{post.id}}') View more or Comment
+    a(ng-show="checkAdmin" href='/admin/readPost/{{post.id}}') View more or Comment
+  div(ng-show="post.hide")#hidenPost 该内容已被管理员隐藏...
+    a(ng-hide="checkAdmin" href='/readPost/{{post.id}}') View more or Comment
+    a(ng-show="checkAdmin" href='/admin/readPost/{{post.id}}') View more or Comment
+  hr

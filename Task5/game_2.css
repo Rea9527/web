@@ -1,0 +1,156 @@
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+* {
+	-webkit-user-select:none;
+	-ms-user-select:none;
+	-moz-user-select:none;
+}
+
+#title {
+	position: relative;
+	width: 188px;
+	height: 40px;
+	top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 24pt;
+	font-weight: bolder;
+}
+
+#intro {
+	position: relative;
+	width: 100%;
+	height: 30px;
+	top: 70px;
+	text-align: center;
+	font-size: 15pt;
+	font-weight: bold;
+}
+
+#display {
+	position: relative;
+	width: 400px;
+	height: 100px;
+	top: 70px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#menu {
+	position: absolute;
+	left: 40px;
+	width: 200px;
+	height: 50px;
+}
+
+#startAndStop {
+	margin-left: 5px;
+}
+
+input:focus {
+	outline: none;
+}
+
+#time {
+	position: absolute;
+	left: 260px;
+	width: 200px;
+	height: 50px;
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+#timeLeft {
+	position: absolute;
+	top: 0;
+	left: 53px;
+	width: 40px;
+	height: 20px;
+	border: solid 1px grey;
+}
+
+#infor {
+	position: absolute;
+	left: 45px;
+	top: 30px;
+	width: 150px;
+	height: 20px;
+	border: solid 1px grey;
+	text-align: center;
+}
+
+#score {
+	position: absolute;
+	top: 30px;
+	left: 250px;
+	width: 200px;
+	height: 50px;
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+#totalScore {
+	position: absolute;
+	top: 0;
+	left: 63px;
+	width: 40px;
+	height: 20px;
+	border: solid 1px grey;
+}
+
+#Game {
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	top: 100px;
+	width: 300px;
+	height: 200px;
+	border-top: solid 1px grey;
+	border-bottom: solid 1px grey;
+}
+
+ul {
+	position: relative;
+	list-style-type: none;
+	margin: 15px 0 0 0;
+	padding: 0;
+	width: 100%;
+	height: 16px;
+}
+
+li {
+	float: left;
+}
+
+.circle {
+	margin-left: 8px;
+	width: 18px;
+	height: 18px;
+	background-color: transparent;
+}
+
+.circleChange {
+	padding: 0;
+	margin-left: 8px;
+	width: 18px;
+	height: 18px;
+}
+
+#instruction {
+	position: relative;
+	top: 120px;
+	left: 250px;
+	font-size: 15pt;
+}
+
+#ins {
+	position: relative;
+	top: 120px;
+	left: 300px;
+	font-size: 11pt;
+	font-weight: bold;	
+}

@@ -1,0 +1,217 @@
+body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+* {
+	-webkit-user-select:none;
+}
+
+#container {
+	position: relative;
+	top: 30px;
+	width: 500px;
+	height: 550px;
+	background-color: skyblue;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 2px 2px 2px 2px grey;
+}
+
+#title {
+	position: absolute;
+	left: 100px;
+	top: 10px;
+	width: 60%;
+	height: 50px;
+	text-align: center;
+	font-size: 30pt;
+	font-weight: bolder;
+	font-style: italic;
+	font-family: Arial;
+	text-shadow: 2px 2px grey;
+}
+
+#step {
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	top: 60px;
+	font-size: 15pt;
+	text-align: center;
+	color: grey;
+}
+
+#reStart {
+	position: absolute;
+	left: 70px;
+	bottom: 20px;
+	width: 180px;
+	height: 40px;
+	font-size: 18pt;
+	font-weight: bolder;
+	text-align: center;
+	background-color: grey;
+	box-shadow: 2px 2px 2px 2px grey;
+}
+
+#changeImg {
+	position: absolute;
+	left: 290px;
+	bottom: 20px;
+	width: 150px;
+	height: 40px;
+	font-size: 18pt;
+	font-weight: bolder;
+	text-align: center;
+	background-color: #AB9B67;
+	box-shadow: 2px 2px 2px 2px grey;
+}
+
+#puzzle {
+	position: absolute;
+	top: 100px;
+	width: 368px;
+	height: 368px;
+	left: 70px;
+}
+
+#puzzle div {
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	border:solid 1px grey;
+	/*background-image: url("girl.png");*/
+	transition: left 0.3s, top 0.3s;
+	-webkit-transition: left 0.3s, top 0.3s;
+}
+
+#puzzle div:hover {
+	border:solid 1px white;
+}
+
+#puzzleFrag1 {
+	background-position: 0 0;
+}
+
+#puzzleFrag2 {
+	background-position: -90px 0;
+}
+
+#puzzleFrag3 {
+	background-position: -180px 0;
+}
+
+#puzzleFrag4 {
+	background-position: -270px 0;
+}
+
+#puzzleFrag5 {
+	background-position: 0 -90px;
+}
+
+#puzzleFrag6 {
+	background-position: -90px -90px;
+}
+
+#puzzleFrag7 {
+	background-position: -180px -90px;
+}
+
+#puzzleFrag8 {
+	background-position: -270px -90px;
+}
+
+#puzzleFrag9 {
+	background-position: 0 -180px;
+}
+
+#puzzleFrag10 {
+	background-position: -90px -180px;
+}
+
+#puzzleFrag11 {
+	background-position: -180px -180px;
+}
+
+#puzzleFrag12 {
+	background-position: -270px -180px;
+}
+
+#puzzleFrag13 {
+	background-position: 0 -270px;
+}
+
+#puzzleFrag14 {
+	background-position: -90px -270px;
+}
+
+#puzzleFrag15 {
+	background-position: -180px -270px;
+}
+
+#puzzleFrag16 {
+	background-position: -270px -270px;
+	visibility: hidden;
+}
+
+#puzzleFrag16_visible {
+	background-position: -270px -270px;
+}
+
+.bgi_1 {
+	background-image: url("girl.png");
+}
+
+.bgi_2 {
+	background-image: url("girl2.png");
+}
+
+.bgi_3 {
+	background-image: url("girl3.png");
+}
+
+.bgi_4 {
+	background-image: url("dog.png");
+}
+
+.bgi_5 {
+	background-image: url("Kobe.png");
+}
+
+.bgi_6 {
+	background-image: url("fish.png");
+}
+
+.row1 {
+	top: 0;
+}
+
+.row2 {
+	top: 92px;
+}
+
+.row3 {
+	top: 184px;
+}
+
+.row4 {
+	top: 276px;
+}
+
+.col1 {
+	left: 0;
+}
+
+.col2 {
+	left: 92px;
+}
+
+.col3 {
+	left: 184px;
+}
+
+.col4 {
+	left: 276px;
+}

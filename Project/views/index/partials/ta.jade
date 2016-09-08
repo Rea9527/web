@@ -1,0 +1,12 @@
+ul#taJade
+	li(ng-repeat="homework in homeworks")
+		p 题目：{{homework.title}}
+		img(src="../images/4962.jpg")#thumbnail
+		a(href="http://{{homework.link}}" target="_blank")#workLink 作业链接
+		a(href="/view/{{homework.homeworkId}}")
+			button 查看作业情况
+		a(href="/rank/{{homework.homeworkId}}")
+			button 查看排名
+	li
+		div#assign
+			a(href="/homework") 布置作业

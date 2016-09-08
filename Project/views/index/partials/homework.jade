@@ -1,0 +1,9 @@
+div#homeworkJade
+	h2 布置作业
+	div
+		div 作业题目: 
+			input(ng-model='homework.title', name='title').input
+		div 作业链接: 
+			input(ng-model='homework.link', name = 'link').input
+		p
+			button(ng-click='assign()').Btn 布置

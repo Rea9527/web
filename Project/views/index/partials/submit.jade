@@ -1,0 +1,7 @@
+div#submitJade
+	h1 提交作业
+	form(enctype="multipart/form-data" action="/files/uploadFiles/{{homeworkId}}" method="post")#uploadForm
+		input(type="file" id="userFile" name="userFile")
+		input(type="file" id="userPhoto" name="userPhoto" accept="image/*")
+		input(type="submit" name="uploadBtn" id="submitBtn")
+	a(href='/myAchievements') 回到主页

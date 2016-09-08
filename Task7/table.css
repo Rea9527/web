@@ -1,0 +1,62 @@
+body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	font-family: Arial;
+}
+
+* {
+	-webkit-user-select: none;
+}
+
+h1 {
+	position: relative;
+	width: 100%;
+	left: 500px;
+}
+
+h2 {
+	position: relative;
+	width: 100%;
+	left: 500px;
+}
+
+table {
+	position: relative;
+	left: 500px;
+	border:solid grey;
+	border-width:  1px 0px 0px 1px;
+	font-size: 12pt;
+}
+
+thead {
+	background-color: #031B7F;
+	color: white;
+	text-align: left;
+}
+
+th {
+	border:solid grey;
+	border-width:  0px 1px 1px 0px;
+}
+
+td {
+	border:solid grey;
+	border-width:  0px 1px 1px 0px;
+}
+
+#staff td{
+	width: 110px;
+}
+
+.alternate {
+	background-color: #DDDDDD;
+}
+
+.increase {
+	background: #A6AFFC url("ascend.png") no-repeat right;
+}
+
+.decrease {
+	background: #A6AFFC url("descend.png") no-repeat right;
+}

@@ -1,0 +1,6 @@
+div.userJade
+	h1 删除用户
+	div#error {{msg}}
+	div#username.input 学号: 
+		input(type='text' name='username' placeholder='学号为8位数字' ng-model='user.username')
+	button(ng-click='deleteUser()').Btn 删除

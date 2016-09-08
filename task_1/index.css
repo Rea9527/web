@@ -1,0 +1,95 @@
+body {
+    background-color: lightcyan;
+    font-family: Georgia;
+}
+
+a {
+    color: darkslategray;
+}
+
+#header {
+    text-align: center;
+    font-size: 300%;
+    font-style: italic;
+}
+
+#contain1 {
+    background-color: aliceblue;
+    height: 320px;
+    width: 300px;
+    float: left;
+    margin-top: 3%;
+    margin-left: 40px;
+}
+
+.pie {
+    width: 300px;
+    height:200px;
+}
+
+.text1 {
+    text-align: center;
+}
+
+.btn1 {
+    background-color: lightcyan;
+    width: 140px;
+    height: 40px;
+    font-size: large;
+    margin: 10px 5px 5px 5px;
+    margin-left: 80px;
+}
+
+#contain2 {
+    background-color: aliceblue;
+    height: 320px;
+    width: 300px;
+    float: left;
+    margin-top: 3%;
+    margin-left: 150px;
+}
+
+.wing {
+    width: 300px;
+    height:200px;
+}
+
+.text2 {
+    text-align: center;
+}
+
+.btn2 {
+    background-color: lightcyan;
+    width: 140px;
+    height: 40px;
+    font-size: large;
+    margin: 10px 5px 5px 5px;
+    margin-left: 80px;
+}
+
+#contain3 {
+    background-color: aliceblue;
+    height: 320px;
+    width: 300px;
+    float: left;
+    margin-top: 3%;
+    margin-left: 150px;
+}
+
+.fish {
+    width: 300px;
+    height:200px;
+}
+
+.text3 {
+    text-align: center;
+}
+
+.btn3 {
+    background-color: lightcyan;
+    width: 140px;
+    height: 40px;
+    font-size: large;
+    margin: 10px 5px 5px 5px;
+    margin-left: 80px;
+}

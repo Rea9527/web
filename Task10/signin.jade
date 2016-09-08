@@ -1,0 +1,32 @@
+doctype html
+html
+	head
+		title Sign In
+		meta(charset="utf-8")
+		script(type="text/javascript" src="js/signin.js")
+		link(rel="stylesheet" type="text/css" href="css/signin.css")
+		link(link rel="icon" sizes="196x196" href="img/favicon.png")
+	body
+		div#signin
+			h1 新用户注册
+			div#alert
+			form#form(action="/" method="post")
+				div#username.input 用户名: 
+					input(type="text", name="username" placeholder='用户名 6~18位')
+				div#nameWrong.wrong
+				div#password.input 密码: 
+					input(type="password", name="password" placeholder='密码 6~12位')
+				div#passwordWrong.wrong
+				div#studentId.input 学号: 
+					input(type="text", name="studentId" placeholder='学号8位数字，不能以0开头')
+				div#idWrong.wrong
+				div#phone.input 手机: 
+					input(type="text", name="phone" placeholder='电话11位数字，不能以0开头')
+				div#phoneWrong.wrong
+				div#email.input 邮箱: 
+					input(type="text", name="email" placeholder='邮箱')
+				div#emailWrong.wrong
+				input#submit.button(type="submit" value="提交")
+				input#reset.button(type="reset" value="重置")
+			<a href="./signin">注册</a>
+			<a href="">忘记密码</a>

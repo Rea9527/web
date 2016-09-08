@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+}
+
+@keyframes my {
+    from {
+        transform: scale(0.0);
+    }
+    to {
+        transform: scale(1.0);
+        background: gray;
+        opacity: 0;
+    }
+}
+
+.a1 {
+    margin-left: 200px;
+    border-radius: 50%;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    animation: my 3s infinite ease-in-out;
+    -moz-animation: my 3s infinite ease-in-out;
+    -webkit-animation: my 3s infinite ease-in-out;
+}
+
+.a2 {
+
+}
+
+.a2 > img {
+    margin: 100px 0 0 300px;
+    border: gray solid 10px;
+    position: absolute;
+    transform-origin: center 400px;
+    transition: transform 0.8s ease;
+}
+
+.a2 img:first-child {
+    transform: rotate(5deg);
+}
+
+.a2 img:last-child {
+    transform: rotate(-5deg);
+}
+
+.a2:hover img:first-child {
+    transform: rotate(25deg);
+}
+
+.a2:hover img:last-child {
+    transform: rotate(-25deg);
+}
+
+.photo {
+    width: 200px;
+    height: 100px;
+}
+
+.a3 {
+    width: 100px;
+    height: 100px;
+    border: solid 10px white;
+    border-left-color: grey;
+    border-radius: 50%;
+    animation: load infinite 1s linear;
+}
+
+@keyframes load {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(360deg)}
+}
+
+.a4 {
+    width: 100px;
+    height: 100px;
+}
+

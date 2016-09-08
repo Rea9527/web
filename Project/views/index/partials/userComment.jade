@@ -1,0 +1,9 @@
+a(href="/{{link}}") 回到主页
+h2 {{homework.username}}
+ul
+	li.judgeContent
+		textarea(ng-model='comment.content', cols='50', rows='15', name='content')
+		div
+			p 分数
+			input(ng-model='comment.point', name='point' maxlength='3')
+			button(ng-click="submit()") 提交

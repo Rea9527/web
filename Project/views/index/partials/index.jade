@@ -1,0 +1,12 @@
+ul
+	li(ng-repeat="homework in homeworks")
+		p#homeworkTitle 题目：{{homework.title}}
+		img(ng-src="{{homework.photoPath}}")#thumbnail
+		a(href="http://{{homework.link}}" target="_blank")#workLink 作业链接
+		a(href="/submit/{{homework.homeworkId}}")
+			button#submitHomework 提交作业
+		a(href="/read/{{homework.homeworkId}}")
+			button 查看评审
+		a(href="/readOthers/{{homework.homeworkId}}")
+			button 评审他人
+	li.end 没有更多作业了!!!

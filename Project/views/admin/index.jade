@@ -1,0 +1,22 @@
+extends layout
+
+block body
+	header
+		div
+			a(href='/')
+				button 主页
+		div
+			a(href='/addUser')
+				button 添加用户
+		div
+			a(href='/deleteUser')
+				button 删除用户
+	div(ng-view)
+
+	script(type="text/javascript" src="http://lib.sinaapp.com/js/jquery/1.7.2/jquery.min.js")
+	script(src='javascripts/lib/angular/angular.js')
+	script(src='javascripts/adminApp/app.js')
+	script(src='javascripts/adminApp/controller.js')
+	script(type="text/javascript" src="/javascripts/validator.js")
+	script(type="text/javascript" src="/javascripts/signup.js")
+	link(link rel="icon" sizes="196x196" href="/images/favicon.png")

@@ -1,0 +1,178 @@
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-image: url('../images/eminem.jpeg');
+	font-family:"Arial","Tahoma","微软雅黑","雅黑";
+	/*line-height: 80px;*/
+}
+
+* {
+	-webkit-user-select: none;
+}
+
+#signin {
+	position: relative;
+	width: 100%;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 50px;
+}
+
+h1 {
+	position: relative;
+	font-weight: bolder;
+	color: #fff;
+	left: 950px;
+	margin:0;
+	text-shadow: 1.5px 1.5px grey;
+}
+
+form {
+	position: relative;
+	width: 800px;
+	height: 600px;
+	top: 20px;
+	left: 820px;
+	color: #fff;
+}
+
+.input {
+	position: absolute;
+	width: 500px;
+	height: 30px;
+	top: 40px;
+	font-size: 15pt;
+	font-weight: bolder;
+
+}
+
+input {
+	position: absolute;
+	width: 300px;
+	height: 30px;
+	/*top: 20px;*/
+	margin-left: 15px;
+	outline: none;
+	border: 1px solid #E5E5E5;
+	border-radius: 5px;
+}
+
+#alert {
+	position: relative;
+	width: 300px;
+	height: 40px;
+	top: 10px;
+	right: 180px;
+	text-align: center;
+	color: red;
+	font-size: 14pt;
+	float: right;
+}
+
+.wrong {
+	position: absolute;
+	width: 500px;
+	height: 30px;
+	left: 70px;
+	color: red;
+	font-size: 12pt;
+}
+
+#username {
+	left: -20px;
+}
+
+#nameWrong {
+	top: 80px;
+}
+
+#password {
+	top: 110px;
+}
+
+#passwordWrong {
+	top: 150px;
+}
+
+#repeatPassword {
+	left: -40px;
+	top: 180px;
+}
+
+#repeatWrong {
+	top: 220px;
+}
+
+#studentId {
+	top: 250px;
+}
+
+#idWrong {
+	top: 290px;
+}
+
+#phone {
+	top: 320px;
+}
+
+#phoneWrong {
+	top: 360px;
+}
+
+#email {
+	top: 390px;
+}
+
+#emailWrong {
+	top: 430px;
+}
+
+.button {
+	width: 60px;
+	height: 30px;
+	top: 470px;
+	display: inline-block;
+	padding: 5px 10px 6px;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 1;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 0 1px 3px #589CB6;
+	-moz-box-shadow: 0 1px 3px #589CB6;
+	-webkit-box-shadow: 0 1px 3px #589CB6;
+	color: #fff;
+	background: #555555;
+}
+
+.button:hover {
+	color: #fff;
+    border-bottom: 4px solid #b2b1b1;
+    background: #222;
+}
+
+#submit {
+	position: absolute;
+	left: 80px;
+}
+
+#reset {
+	position: absolute;
+	left: 160px;
+}
+
+a {
+	position: relative;
+	color: grey;
+}
+
+a:hover {
+	color: white;
+}
+
+#signup {
+	top: 480px;
+	left: 240px;
+}

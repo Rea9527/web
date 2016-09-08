@@ -1,0 +1,18 @@
+extends layout
+
+block content
+	div#content
+		div#tip #{tip}
+		div#infor
+			h1 User Details
+			p Username: 
+				span #{user.username}
+			p StudentId: 
+				span #{user.studentId}
+			p Phone: 
+				span #{user.phone}
+			p Email: 
+				span #{user.email}
+			form(method="post" action="/signout")
+				input#signout(type="submit" value="退出")
+	link(rel="stylesheet" type="text/css" href="/stylesheets/user.css")

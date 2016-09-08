@@ -1,0 +1,1 @@
+Æô¶¯Êý¾Ý¿â £º mongod --dbpath "./data"

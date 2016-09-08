@@ -1,0 +1,256 @@
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#at-plus-container {
+    position: relative;
+    width: 180px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bottom-positioner {
+    top: 150px;
+    position: absolute;
+    width: 100%;
+}
+
+#button:hover #info-bar {
+    margin-top: -140px;
+    margin-left: -35px;
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.5s ease-in;
+}
+
+#info-bar {
+    position: absolute;
+    margin-top: -35px;
+    margin-left: -35px;
+    background-color: rgba(125, 126, 126, 1);
+    width: 126px;
+    height:126px;
+    border-radius: 50%;
+    text-align: center;
+    transform: scale(0);
+    opacity: 0;
+    transition: all 0.5s ease-out;
+}
+
+
+#info-bar ul {
+    margin: 0;
+    padding: 0;
+}
+
+#info-bar li {
+    color: white;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center; 
+    list-style: none;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 0.3px 0.3px;
+}
+
+#info-bar li img {
+    vertical-align: middle;
+}
+
+#info-bar li span {
+    margin-left: 8px;
+}
+
+#info-bar li.like {
+    display: inline-block;
+    width: 50%;
+    color: #42C790;
+    box-sizing: border-box;
+}
+
+#info-bar li.posted {
+    display: inline-block;
+    width: 50%;
+    color: #42C790;
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+
+#info-bar li.comment {
+    font-size: 30pt;
+}
+
+#button:hover #control-ring-container {
+    width: 100%;
+    height: 180px;
+    bottom: 10px;
+    left: 0px;
+    /*bottom: 150px;*/
+}
+
+/*#button:hover {
+    width: 180px;
+    height: 180px;
+}*/
+
+#control-ring-container {
+    position: absolute;
+    width: 10%;
+    height: 10px;
+    bottom: 180px;
+    left: 0px;
+    border-radius: 50%;
+}
+
+#control-ring-container li {
+    position: absolute;
+    display: block;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    list-style: none;
+    background: #6A6A6A center no-repeat; 
+}
+
+#button:hover #control-ring li:nth-child(1) {
+    margin-top: -10px;
+    margin-left: -25px;
+    background-image: url("assets/images/nomask.png");
+    background-size: 55%;
+    transform: scale(1.0);
+    opacity: 1;
+    transition: all 0.5s ease-in;
+
+}
+
+#control-ring li:nth-child(1) {
+    margin-left: 32px;
+    margin-top: 3px;
+    transform: scale(0);
+    opacity: 0;
+    transition: all 0.5s ease-out;
+}
+
+#button:hover #control-ring li:nth-child(2) {
+    margin-top: 25px;
+    margin-left: -38px;
+    background-image: url("assets/images/history.png");
+    background-size: 55%;
+    transform: scale(1.0);
+    opacity: 1;
+    transition: all 0.5s ease-in;
+}
+
+#control-ring li:nth-child(2) {
+    margin-left: 32px;
+    margin-top: 3px;
+    transform: scale(0);
+    opacity: 0;
+    transition: all 0.5s ease-out;
+}
+
+#button:hover #control-ring li:nth-child(3) {
+    margin-top: 60px;
+    margin-left: -20px;
+    background-image: url("assets/images/message.png");
+    background-size: 55%;
+    transform: scale(1.0);
+    opacity: 1;
+    transition: all 0.5s ease-in;
+}
+
+#control-ring li:nth-child(3) {
+    margin-left: 32px;
+    margin-top: 3px;
+    transform: scale(0);
+    opacity: 0;
+    transition: all 0.5s ease-out;
+}
+
+#button:hover #control-ring li:nth-child(4) {
+    margin-top: 80px;
+    margin-left: 16px;
+    background-image: url("assets/images/setting.png");
+    background-size: 55%;
+    transform: scale(1.0);
+    opacity: 1;
+    transition: all 0.5s ease-in;
+}
+
+#control-ring li:nth-child(4) {
+    margin-left: 32px;
+    margin-top: 3px;
+    transform: scale(0);
+    opacity: 0;
+    transition: all 0.5s ease-out;
+}
+
+#button:hover #control-ring li:nth-child(5) {
+    margin-top: 75px;
+    margin-left: 58px;
+    background-image: url("assets/images/signout.png");
+    background-size: 55%;
+    transform: scale(1.0);
+    opacity: 1;
+    transition: all 0.5s ease-in;
+}
+
+#control-ring li:nth-child(5) {
+    margin-left: 32px;
+    margin-top: 13px;
+    transform: scale(0);
+    opacity: 0;
+    transition: all 0.5s ease-out;
+}
+
+#button {
+    width: 50px;
+    height: 50px;
+    margin: 110px 60px;
+}
+
+.unread {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background: #ff360e;
+    margin: 0 auto 0 60%;
+    font-size: 70%;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bolder;
+    color: white;
+    top:-6px;
+}
+
+
+#button:hover .apb {
+    transform: scale(1.7);
+    background-color: rgba(48, 63, 159, 1);
+    background-image: url("assets/images/atplus_green.png");
+    transition: all 0.5s ease-in;
+}
+
+#button .apb {
+    width: 30px;
+    height: 30px;
+    background-color: #7E7E7E;
+    background-image: url("assets/images/atplus_white.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 73px;
+    bottom: 120px;
+    transition: all 0.5s ease-out 0.5s;
+}

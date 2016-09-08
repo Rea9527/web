@@ -1,0 +1,35 @@
+extends layout
+
+block body
+  div#head
+    div#searchBox Search: 
+      input(ng-model="search")
+    img(src="../images/user.png")
+    p#username #{user.username}
+    form(method="post" action="/signout")
+      input(type="submit" value="Log out")#logout
+  div
+    h1#title My Blog
+    header
+      div
+        a(href='/')
+          button Home
+      div
+        a(href='/myPosts')
+          button My posts
+      div
+        a(href='/addPost')
+          button Add a new post
+    div(ng-view)#Blog
+    div#page
+  br
+  div#about By Rea
+  br
+
+  script(src="//cdn.bootcss.com/lodash.js/4.0.0/lodash.js")
+  script(src='javascripts/lib/angular/angular.js')
+  script(src='javascripts/app.js')
+  script(src='javascripts/services.js')
+  script(src='javascripts/controllers.js')
+  script(src='javascripts/filters.js')
+  script(src='javascripts/directives.js')

@@ -1,0 +1,12 @@
+a(href="/{{link}}") 回到主页
+h2 {{homework.username}}
+ul
+	li.judgeContent
+		textarea(ng-model='TAcomment.content', cols='50', rows='15', name='content')
+		div
+			p 分数
+			input(ng-model='TAcomment.point', name='point' pattern="[0-9]" max='100' min='0' maxlength='3')
+			button(ng-click="submit()") 提交
+	li(ng-repeat='comment in comments').judgeContent.judgeColor
+		div#taContent {{comment.content}}
+		div#taPoint {{comment.point}}

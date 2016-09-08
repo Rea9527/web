@@ -1,0 +1,7 @@
+ul#viewJade
+	li(ng-repeat='homework in homeworks')
+		p 用户名：{{homework.username}}
+		img(ng-src='{{homework.photoPath}}')#thumbnail
+		div#link
+			a(href="{{homework.filePath}}" target='_blank') 下载
+			a(href="/userComment/{{homework.homeworkId}}/{{homework.username}}") 评审

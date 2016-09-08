@@ -1,0 +1,151 @@
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#calculator {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 480px;
+	height: 580px;
+	padding: 0;
+	top: 30px;
+}
+
+#text {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 97px;
+
+}
+
+.intro {
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	font-size: 35pt;
+	font-weight: 900;
+	text-shadow: 1pt 1pt grey;
+	color: #008100;
+	margin: 0;
+	top:20px;
+}
+
+#calBody {
+	position: absolute;
+	width: 100%;
+	height: 483px;
+	top:93px;
+	border: solid 3px black;
+	left: -3px;
+	background-color: grey;
+	border-radius: 5%;
+}
+
+input {
+	border: 0;
+	padding: 0;
+}
+
+#inputBox {
+	position: absolute;
+	top: 15px;
+	width: 93%;
+	height: 90px;
+
+	margin-left: 15px;
+	/*border: solid black;*/
+}
+
+#inputBox1 {
+	position: absolute;
+	width: 100%;
+	height: 45px;
+	font-size: 20pt;
+	color: white;
+	background-color: #434343;
+}
+
+#inputBox2 {
+	top:45px;
+	position: absolute;
+	width: 100%;
+	height: 45px;
+	text-align: right;
+	font-size: 25pt;
+	color: white;
+	background-color: #434343;
+}
+
+#input {
+	position: absolute;
+	width: 90%;
+	height: 35px;
+	left: 20px;
+	top: 15px;
+	border: solid grey;
+	text-align: right;
+	font-size: 18pt;
+}
+
+#keyboard {
+	position: absolute;
+	width: 100%;
+	height: 403px;
+	top: 120px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+
+.button_in_line {
+	margin-left: 15px;
+	width: 100%;
+	height: 70px;
+}
+
+button {
+	width: 100px;
+	height: 60px;
+	color: #ECECEC;
+}
+
+li {
+	width: 100px;
+	height: 60px;
+	position: absolute;
+	text-align: center;
+	border: solid 1px;
+	border-radius: 10%;
+}
+
+.number {
+	margin: 0;
+	font-size: 18pt;
+	color: black;
+	font-weight: bold;
+}
+
+.key_1 {
+	left: 15px;
+}
+
+.key_2 {
+	left: 130px;
+}
+
+.key_3 {
+	left: 245px;
+}
+
+.key_4 {
+	left: 360px;
+}

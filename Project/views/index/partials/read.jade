@@ -1,0 +1,8 @@
+a(href='/myAchievements') 回到主页
+ul
+	li(ng-show='TA').judgeContent
+		div#taContent {{TAcomment.content}}
+		div#taPoint {{TAcomment.point}}
+	li(ng-repeat='comment in comments').judgeContent.judgeColor
+		div#taContent {{comment.content}}
+		div#taPoint {{comment.point}}
